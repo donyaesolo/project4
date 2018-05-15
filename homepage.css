@@ -1,0 +1,119 @@
+body{
+	background-image: url(images/fist_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	margin: 0px;
+	padding: 0px;
+}
+.leaders {
+	background-size: cover;
+}
+.leader1 {
+	font-size: 80px;
+	background: -webkit-linear-gradient( red, rgba(255,100,0,1), rgba(255,255,0,.5));
+	-webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+
+	}
+	.leader2 {
+	font-size: 80px;
+	background: -webkit-linear-gradient( #FF005A, #FF21AA, #78156A);
+	-webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+
+	}
+	.leader3 {
+	font-size: 80px;
+	background: -webkit-linear-gradient( #A3DFEF, #39AFFF, #133FD1);
+	-webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+
+	}
+p, ul{
+text-indent: 40px;
+color: white;
+list-style: none;
+font-size: 30px;
+
+}
+img {
+	float: right;
+}
+.first{
+float: left;
+}
+.attack {
+	float: left;
+	
+}
+.f2{
+	text-align: left;
+}
+.container {
+display: flex;	
+flex-direction: column;
+
+}
+.grid-item2{
+text-align: right;
+}
+
+.container1 {
+display: flex;	
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+h1{
+text-align: center;
+color: white;
+}
+
+.cause {
+	font-size: 70px;
+}
+.cause1 {
+	font-size: 250px;
+}
+
+.join {
+	background-image: url(images/background1.jpg);
+	background-size: cover;
+}
+.join1 {
+font-size: 100px;
+text-align: right;
+}
+.join2 {
+text-align: left;
+font-size: 100px;
+color: black;
+}
+.add li{
+font-size: 20px;
+color: black;
+display: inline;
+padding-right: 4px;
+}
+.container2 {
+	display: grid;
+	grid-template-column: 20px 20px;
+	grid-template-row: 50px 50px;
+	grid-row-gap: 50px;
+}
+.item2{
+float: left;
+
+}
+
+.names{
+	word-wrap: break-word;
+	background-color: rgba(10, 10, 10, 0.5);
+
+}
