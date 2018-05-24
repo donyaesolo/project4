@@ -1,3 +1,4 @@
+/*General*/
 body{
 	background-image: url(images/fist_background.jpg);
 	background-repeat: no-repeat;
@@ -9,6 +10,15 @@ html{
 	margin: 0px;
 	padding: 0px;
 }
+p, ul{
+text-indent: 40px;
+color: white;
+list-style: none;
+font-size: 30px;
+
+}
+
+/*leaders page*/
 .leaders {
 	background-size: cover;
 }
@@ -33,26 +43,15 @@ html{
 	  -webkit-text-fill-color: transparent;
 
 	}
-p, ul{
-text-indent: 40px;
-color: white;
-list-style: none;
-font-size: 30px;
-
-}
-img {
-	float: right;
-}
-.first{
-float: left;
-}
-.attack {
-	float: left;
-	
-}
 .f2{
 	text-align: left;
 }
+.bottom{
+text-align: center;
+padding-left: 180px;
+}
+
+/*flexbox*/
 .container {
 display: flex;	
 flex-direction: column;
@@ -62,6 +61,48 @@ flex-direction: column;
 text-align: right;
 }
 
+
+	/* images*/
+img {
+	float: right;
+}
+.first{
+float: left;
+margin-bottom: 10px;
+margin-right: 60px;
+}
+.attack {
+float: left;
+	
+}
+.size {
+width: 564px;
+height: 491px;
+}
+.size2{
+width:483px;
+height: 378px;
+}
+.size3{
+width:383px;
+height: 578px;
+}
+
+.right{
+margin-top: 10px;
+margin-left: 60px;
+}
+
+.back {
+width: 100px;
+height: 100px;
+float: left;
+margin-bottom: 10px;
+}
+
+/*homepage*/
+
+/*flexbox*/
 .container1 {
 display: flex;	
 flex-direction: row;
@@ -82,6 +123,7 @@ color: white;
 	font-size: 250px;
 }
 
+/*Join*/
 .join {
 	background-image: url(images/background1.jpg);
 	background-size: cover;
@@ -101,19 +143,23 @@ color: black;
 display: inline;
 padding-right: 4px;
 }
+
+/*grid*/
 .container2 {
 	display: grid;
 	grid-template-column: 20px 20px;
 	grid-template-row: 50px 50px;
 	grid-row-gap: 50px;
 }
+
+/*img*/
 .item2{
 float: left;
-
 }
 
+/*js list*/
 .names{
 	word-wrap: break-word;
 	background-color: rgba(10, 10, 10, 0.5);
-
 }
+
