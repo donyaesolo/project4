@@ -28,7 +28,7 @@ cursor: url(images/bird.cur), auto;
 .leader1 {
 	font-size: 80px;
 	background: -webkit-linear-gradient
-		( red, rgba(255,100,0,1), rgba(255,255,0,.5));
+		( red, rgba(255,100,0,1),rgba(255,255,0,.5));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
