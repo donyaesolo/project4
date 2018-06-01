@@ -31,24 +31,21 @@ cursor: url(images/bird.cur), auto;
 
 	.leader1 {
 		font-size: 80px;
-		background: -webkit-linear-gradient
-			( red, rgba(255,100,0,1), rgba(255,255,0,.5));
+		background: -webkit-linear-gradient( red, rgba(255,100,0,1), rgba(255,255,0,.5));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 
 	}
 	.leader2 {
 		font-size: 80px;
-		background: -webkit-linear-gradient
-			( #FF005A, #FF21AA, #78156A);
+		background: -webkit-linear-gradient( #FF005A, #FF21AA, #78156A);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 
 	}
 	.leader3 {
 		font-size: 80px;
-		background: -webkit-linear-gradient
-			( #A3DFEF, #39AFFF, #133FD1);
+		background: -webkit-linear-gradient( #A3DFEF, #39AFFF, #133FD1);
 		-webkit-background-clip: text;
 		 -webkit-text-fill-color: transparent;
 
