@@ -21,7 +21,7 @@ p, ul{
 }
 
 *{
-cursor: url(images/bird.cur), auto;
+	cursor: url(images/bird.cur), auto;
 }
 
 /*leaders page*/
