@@ -193,5 +193,7 @@ h1{
 .names{
 	word-wrap: break-word;
 	background-color: rgba(10, 10, 10, 0.5);
+	color: white;
+	font-size: 15px;
 }
 
